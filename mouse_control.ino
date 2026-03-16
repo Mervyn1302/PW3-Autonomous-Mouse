@@ -22,8 +22,8 @@ const int LEFT_MOTOR_PIN  = 9;   // PWM to left MOSFET driver
 const int RIGHT_MOTOR_PIN = 10;  // PWM to right MOSFET driver
 
 // ── PD GAINS ─────────────────────────────────────────────────────────────────
-float Kp = 1.0;   // Proportional gain
-float Kd = 0.05;  // Derivative gain
+float Kp = 1.2;   // Proportional gain
+float Kd = 0.08;  // Derivative gain
 
 // ── MOTOR SPEED LIMITS ───────────────────────────────────────────────────────
 const int BASE_SPEED = 140;  // Straight line speed (0-255)
